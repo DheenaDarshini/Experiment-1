@@ -11,6 +11,7 @@ To demonstrate the working of the do...while loop, which ensures the loop body i
 4.	If the condition is true, repeat the loop; otherwise, exit the loop.
 
 ## Program
+~~~
 #include <stdio.h>
 
 int main() {
@@ -20,6 +21,7 @@ int main() {
         i++;
     } while(i < 5); // condition to stop after 5 iterations
 }
+~~~
 
 ## Output
 ![Screenshot 2025-03-06 105004](https://github.com/user-attachments/assets/f09a9acf-d237-4b09-aab9-9d5b7dc495da)
@@ -37,6 +39,7 @@ To demonstrate the working of the while...do loop, where the loop will execute t
 4.	Repeat steps 2 and 3 until the condition becomes false.
 
 ## Program
+~~~
 #include <stdio.h>
 
 int main() {
@@ -49,6 +52,7 @@ int main() {
     }
 
 }
+~~~
 
 ## Output
 ![Screenshot 2025-03-06 105112](https://github.com/user-attachments/assets/baa9abbd-b2fb-4a7e-9da8-758cd585f42a)
@@ -65,6 +69,7 @@ To demonstrate the working of the if...else conditional statement, which allows 
 3.	If the condition is false, execute the block of code inside the else statement.
 
 ## Program
+~~~
 #include <stdio.h>
 
 int main() {
@@ -82,6 +87,7 @@ int main() {
     }
 
 }
+~~~
 
 ## Output
 ![Screenshot 2025-03-06 105201](https://github.com/user-attachments/assets/eae38325-79fd-413f-8530-02903a4f5a92)
@@ -101,6 +107,7 @@ To demonstrate the working of the switch statement, which is used to select one 
 4.	If no match is found, execute the default case (if defined).
 
 ## Program
+~~~
 #include <stdio.h>
 
 int main() {
@@ -125,7 +132,7 @@ int main() {
 
     return 0;
 }
-
+~~~
 
 ## Output
 ![Screenshot 2025-03-06 110228](https://github.com/user-attachments/assets/981002f5-540d-4b1f-8153-2b8102d6c710)
@@ -145,6 +152,7 @@ To demonstrate the working of the for loop, which is used to iterate a fixed num
 4.	After each iteration, increment/decrement the loop variable and repeat until the condition becomes false.
 
 ## Program
+~~~
 #include <stdio.h>
 
 int main() {
@@ -160,6 +168,7 @@ int main() {
 
     return 0;
 }
+~~~
 
 
 ## Output
