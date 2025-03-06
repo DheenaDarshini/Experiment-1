@@ -1,4 +1,8 @@
 # Experiment-1
+
+# Name: Dheena Darshini Karthik Dheepan
+# Reg no:212223240030
+
 ##  Write a C programs  to demonstrate the working of following constructs with possible test cases:
 a) do…while b) while…do c) if …else d) switch e) for
 ## a) Aim
