@@ -1,4 +1,4 @@
-![Screenshot 2025-03-20 112209](https://github.com/user-attachments/assets/beebb1cc-34ed-4a83-ad2a-5e8cca0819d0)# Experiment-1
+# Experiment-1
 ##  Write programs in Python Language to demonstrate the working of
 followingconstructs with possible test cases: a) do…while b) while…do c)
 if …else d) switch e) for
