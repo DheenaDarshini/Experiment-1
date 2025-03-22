@@ -1,7 +1,7 @@
 # Experiment-1
 ##  Write programs in Python Language to demonstrate the working of
-followingconstructs with possible test cases: a) do…while b) while…do c)
-if …else d) switch e) for
+## following constructs with possible test cases: a) do…while b) while…do c)
+## if …else d) switch e) for
 
 ## a) Aim
 To write python programs for do…while, while, for, switch and if…else and test with possible test
@@ -108,13 +108,58 @@ compare()
 
 ![Screenshot 2025-03-20 114303](https://github.com/user-attachments/assets/b46cc633-29f4-440b-bd78-ae3e6212de56)
 
+## d) switch
+~~~
+def switch():
+    switcher = {
+        0: "even",
+        1: "odd"
+    }
 
+    n = input("Enter a value for N: ")
+    try:
+        n = int(n)
+        print(switcher[n % 2])
+    except ValueError:
+        print("Enter a valid number.")
 
+switch()
+
+~~~
+
+## Output
+
+![Screenshot 2025-03-22 105112](https://github.com/user-attachments/assets/437e8f6d-c565-4fe7-b395-c90883d9144f)
+
+![Screenshot 2025-03-22 105121](https://github.com/user-attachments/assets/d4d763a7-8629-43a9-be12-8c1c719eaa32)
+
+![Screenshot 2025-03-22 105130](https://github.com/user-attachments/assets/7212d826-f08b-4856-8994-97194ef6650c)
+
+![Screenshot 2025-03-22 105138](https://github.com/user-attachments/assets/1ed5b3dd-95c7-4bdb-8075-1944292ec056)
+
+## e) for
+~~~
+def iterate():
+    string = input("Enter a string: ")  
+    for i in string:
+        print(ord(i), end=" ")
+
+iterate()
+~~~
+
+## Output
+
+![Screenshot 2025-03-22 105828](https://github.com/user-attachments/assets/67619a5e-a2ad-472c-9525-104f05f9054d)
+
+![Screenshot 2025-03-22 105834](https://github.com/user-attachments/assets/8b2a82b2-42cb-4bad-b907-0bc06cfe5480)
+
+![Screenshot 2025-03-22 105841](https://github.com/user-attachments/assets/478c739d-47cf-4159-aa55-9040e6e4e923)
 
 
 
 
 ## Result
+Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully. 
 
 
 
